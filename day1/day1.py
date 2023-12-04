@@ -9,7 +9,7 @@ def extractNum(string):
 
 def part1():
     sum = 0
-    file = open("day1.txt", "r")
+    file = open("input.txt", "r")
     lines = file.readlines()
 
     for line in lines:
@@ -48,7 +48,7 @@ def extractNum2(string):
 
 def part2():
     sum = 0
-    file = open("day1.txt", "r")
+    file = open("input.txt", "r")
     lines = file.readlines()
     extractNum2(lines[0])
     for line in lines:

@@ -7,7 +7,7 @@ def part1():
         'blue': 14
     }
 
-    file = open("day2.txt", "r")
+    file = open("input.txt", "r")
     lines = file.readlines()
 
     sum = 0
@@ -29,7 +29,7 @@ def part1():
     print(sum)
 
 def part2():
-    file = open("day2.txt", "r")
+    file = open("input.txt", "r")
     lines = file.readlines()
 
     sum = 0
